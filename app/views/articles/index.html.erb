@@ -1,0 +1,15 @@
+<h1 align="center">Hello, Rails Developers!</h1>
+<hr>
+<div align="center">
+  <% @articles.each do |article| %>
+    <h2>
+      <%= article.title %>
+
+    </h2>
+
+    <h3>
+      <%= article.body %>
+    </h3>
+
+  <% end %>
+</div>
